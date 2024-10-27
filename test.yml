@@ -1,0 +1,6 @@
+- name: Practice
+  hosts: all
+  tasks:
+    name: Test
+    ansible.builtin.debug:
+      msg: "Hello World"
