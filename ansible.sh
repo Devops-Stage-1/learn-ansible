@@ -1,0 +1,1 @@
+ansible-playbook secrets.yml -e vault_token=$vault
